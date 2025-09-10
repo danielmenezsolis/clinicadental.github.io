@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clínica Dental Sonrisa Perfecta</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans text-gray-800">
+
+  <!-- Header -->
+  <header class="fixed top-0 w-full bg-white shadow-md z-50">
+    <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
+      <h1 class="text-2xl font-bold text-blue-600">Sonrisa Perfecta</h1>
+      <nav class="hidden md:flex space-x-6">
+        <a href="#servicios" class="hover:text-blue-600">Servicios</a>
+        <a href="#beneficios" class="hover:text-blue-600">Beneficios</a>
+        <a href="#equipo" class="hover:text-blue-600">Equipo</a>
+        <a href="#contacto" class="hover:text-blue-600">Contacto</a>
+      </nav>
+      <a href="#contacto" class="bg-blue-600 text-white px-4 py-2 rounded-lg shadow hover:bg-blue-700">Agendar cita</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="h-screen bg-[url('https://images.unsplash.com/photo-1606813902914-3a59a01d82b8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80')] bg-cover bg-center flex items-center justify-center text-center text-white relative">
+    <div class="bg-black bg-opacity-50 p-10 rounded-lg">
+      <h2 class="text-4xl md:text-6xl font-bold mb-4">Tu sonrisa, nuestra pasión</h2>
+      <p class="text-lg md:text-2xl mb-6">Cuidamos tu salud dental con tecnología de vanguardia y atención personalizada.</p>
+      <a href="#contacto" class="bg-blue-600 px-6 py-3 rounded-lg text-lg font-semibold hover:bg-blue-700">Reserva tu cita ahora</a>
+    </div>
+  </section>
+
+  <!-- Beneficios -->
+  <section id="beneficios" class="py-20 bg-gray-100">
+    <div class="max-w-6xl mx-auto text-center">
+      <h3 class="text-3xl font-bold mb-12">¿Por qué elegirnos?</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-xl shadow">
+          <h4 class="text-xl font-semibold mb-2">Atención Personalizada</h4>
+          <p>Nos adaptamos a tus necesidades para que tu experiencia sea única.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow">
+          <h4 class="text-xl font-semibold mb-2">Tecnología Avanzada</h4>
+          <p>Contamos con equipos modernos para diagnósticos precisos y tratamientos cómodos.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow">
+          <h4 class="text-xl font-semibold mb-2">Resultados Garantizados</h4>
+          <p>Tu sonrisa en manos de especialistas certificados con amplia experiencia.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section id="servicios" class="py-20">
+    <div class="max-w-6xl mx-auto text-center">
+      <h3 class="text-3xl font-bold mb-12">Nuestros Servicios</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white shadow rounded-xl p-6">
+          <img src="https://img.icons8.com/color/96/000000/tooth.png" class="mx-auto mb-4"/>
+          <h4 class="font-semibold text-xl mb-2">Limpieza Dental</h4>
+          <p>Elimina placa y sarro para mantener una sonrisa fresca y saludable.</p>
+        </div>
+        <div class="bg-white shadow rounded-xl p-6">
+          <img src="https://img.icons8.com/color/96/000000/dental-braces.png" class="mx-auto mb-4"/>
+          <h4 class="font-semibold text-xl mb-2">Ortodoncia</h4>
+          <p>Alineamos tus dientes con brackets y alineadores invisibles.</p>
+        </div>
+        <div class="bg-white shadow rounded-xl p-6">
+          <img src="https://img.icons8.com/color/96/000000/dental-crown.png" class="mx-auto mb-4"/>
+          <h4 class="font-semibold text-xl mb-2">Implantes</h4>
+          <p>Reemplazo dental con implantes duraderos y estéticos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonios -->
+  <section class="py-20 bg-gray-100">
+    <div class="max-w-6xl mx-auto text-center">
+      <h3 class="text-3xl font-bold mb-12">Lo que dicen nuestros pacientes</h3>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white p-6 rounded-xl shadow">
+          <p class="italic mb-4">“Excelente atención y resultados increíbles. Ahora sonrío con confianza.”</p>
+          <h4 class="font-semibold">— María López</h4>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow">
+          <p class="italic mb-4">“El mejor trato que he recibido en una clínica dental, 100% recomendado.”</p>
+          <h4 class="font-semibold">— Juan Pérez</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Equipo -->
+  <section id="equipo" class="py-20">
+    <div class="max-w-6xl mx-auto text-center">
+      <h3 class="text-3xl font-bold mb-12">Conoce a nuestro equipo</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-xl shadow">
+          <img src="https://randomuser.me/api/portraits/women/44.jpg" class="w-32 h-32 rounded-full mx-auto mb-4"/>
+          <h4 class="font-semibold text-xl">Dra. Ana Martínez</h4>
+          <p>Especialista en ortodoncia</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow">
+          <img src="https://randomuser.me/api/portraits/men/46.jpg" class="w-32 h-32 rounded-full mx-auto mb-4"/>
+          <h4 class="font-semibold text-xl">Dr. Carlos Ramírez</h4>
+          <p>Implantología</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow">
+          <img src="https://randomuser.me/api/portraits/women/68.jpg" class="w-32 h-32 rounded-full mx-auto mb-4"/>
+          <h4 class="font-semibold text-xl">Dra. Sofía Torres</h4>
+          <p>Odontología general</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="py-20 bg-blue-600 text-white">
+    <div class="max-w-6xl mx-auto text-center">
+      <h3 class="text-3xl font-bold mb-6">Agenda tu cita</h3>
+      <form class="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto text-gray-800 bg-white p-8 rounded-xl shadow">
+        <input type="text" placeholder="Nombre" class="p-3 border rounded-lg">
+        <input type="email" placeholder="Correo" class="p-3 border rounded-lg">
+        <input type="tel" placeholder="Teléfono" class="p-3 border rounded-lg">
+        <input type="date" class="p-3 border rounded-lg">
+        <textarea placeholder="Mensaje" class="md:col-span-2 p-3 border rounded-lg"></textarea>
+        <button type="submit" class="bg-blue-600 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700 md:col-span-2">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Mapa -->
+  <section class="py-10">
+    <div class="max-w-6xl mx-auto text-center">
+      <h3 class="text-2xl font-bold mb-4">Encuéntranos</h3>
+      <p class="mb-6">Av. Reforma 123, Ciudad de México — Lunes a Sábado: 9:00 AM - 7:00 PM</p>
+      <iframe class="w-full h-80 rounded-xl shadow" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.548409722059!2d-99.167662!3d19.427024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f92a3d8e5e3d%3A0x1b6a4d90c0b7a38!2sAv.%20Paseo%20de%20la%20Reforma%20123%2C%20Ciudad%20de%20M%C3%A9xico!5e0!3m2!1ses!2smx!4v1700000000000" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-300 py-6">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center">
+      <p>© 2025 Clínica Dental Sonrisa Perfecta. Todos los derechos reservados.</p>
+      <div class="flex space-x-4 mt-4 md:mt-0">
+        <a href="#" class="hover:text-white">Facebook</a>
+        <a href="#" class="hover:text-white">Instagram</a>
+        <a href="#" class="hover:text-white">WhatsApp</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
