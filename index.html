@@ -153,6 +153,29 @@
     </div>
   </footer>
 
+  <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
+<script type="module">
+	import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+
+	createChat({
+		webhookUrl: 'https://n8n.srv989538.hstgr.cloud/webhook/f2b83431-ba27-4cbb-9576-0f00622661ba/chat',
+    defaultLanguage: 'en',
+	initialMessages: [
+		'Bienvenidos a Sonrisa Perfecta,  que puedo hacer por ti? 👋',
+
+	],
+	i18n: {
+		en: {
+			title: 'Sonrisa Perfecta👋',
+			subtitle: "Inicia el chat, contestamos las 24 horas del día.",
+			footer: '',
+			getStarted: 'Nueva conversación',
+			inputPlaceholder: 'Escribe tu pregunta..',
+		}
+	}
+  });
+</script>
+
 </body>
 </html>
 
